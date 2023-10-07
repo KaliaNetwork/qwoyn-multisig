@@ -71,7 +71,8 @@ if [ "$PREPARER" -eq 1 ]; then
 	done
 
 else
-    
+  cd && git clone https://github.com/KaliaNetwork/qwoyn-multisig.git && cd qwoyn-multisig
+
   # Step 3
   for VAL in "${selected_validators[@]}"
   do  
