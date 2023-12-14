@@ -3,7 +3,7 @@
 PREPARER=0
 PermanentLockedAccount=qwoyn1kgqstc2q0ecze38ugsrfjdek7e8e6y6jc0yux7
 BaseAccount=qwoyn1pk6fz7zepllfa3fjzcfl05zzmzsvw3yma0q62k
-MULTISIG=qwoynd-oversight-multi
+MULTISIG=oversight-multisig
 
 # Step 0
 echo "Who are you? "
