@@ -49,7 +49,7 @@ done
 if [ "$PREPARER" -eq 1 ]; then
 
 	# Step 1
-	qwoynd tx bank send ${PermanentLockedAccount} ${TO_1} 2140000000uqwoyn --gas-prices 0.0025uqwoyn --gas-adjustment 1.3 --generate-only >> "step1_send.json"
+	qwoynd tx bank send ${PermanentLockedAccount} ${TO_2} 2140000000uqwoyn --gas-prices 0.0025uqwoyn --gas-adjustment 1.3 --generate-only >> "step1_send.json"
 	
 	# Step 2 - will be upload kalianetwork github
 	qwoynd tx authz exec step1_send.json --from ${BaseAccount} --gas-prices 0.0025uqwoyn --gas-adjustment 1.3 --generate-only >> step2_send.json
